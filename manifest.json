@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "CanonicaURL",
+	"version": "0.0.1",
+
+	"description": "Rewrite the address bar to the canonical URL if the page has a canonical URL.",
+
+	"author": "irok",
+	"content_scripts": {
+		"matches", ["http://*/*", "https://*/*"],
+		"js": ["main.js"]
+	},
+	"permissions": [
+		"http://*/*", "https://*/*"
+	]
+}
