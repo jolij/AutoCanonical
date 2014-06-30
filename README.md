@@ -1,4 +1,4 @@
-# CanonicaURL
+## Install
 
-Rewrite the address bar to the canonical URL if the page has a canonical URL.
+Install from Chrome Web Store "[CanonicaURL](https://chrome.google.com/webstore/detail/canonicaurl/dcbmeicnoejpldipejlefojiiebhogij)".
 
