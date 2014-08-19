@@ -1,0 +1,16 @@
+{
+  // Enforcing options
+  "indent": false,
+  "maxparams": 3,
+  "maxdepth": 3,
+  "maxstatements": 20,
+  "maxcomplexity": 5,
+  "maxlen": 120,
+  "quotmark": "single",
+  "strict": false,
+
+  // Relaxing options
+  "evil": true,
+  "lastsemic": true,
+  "laxbreak": true
+}

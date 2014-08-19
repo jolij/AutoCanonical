@@ -1,18 +1,18 @@
 {
-	"manifest_version": 2,
-	"name": "CanonicaURL",
-	"version": "0.1.0",
-
-	"description": "Rewrite the address bar to the canonical URL if the page has a canonical URL.",
-
-	"author": "irok",
-	"content_scripts": [{
-		"matches": ["http://*/*", "https://*/*"],
-		"js": ["main.js"],
-		"run_at": "document_end"
-	}],
-	"homepage_url": "https://chrome.google.com/webstore/detail/canonicaurl/dcbmeicnoejpldipejlefojiiebhogij",
-	"permissions": [
-		"tabs", "http://*/*", "https://*/*"
-	]
+  "name": "AutoCanonical",
+  "version": "0.2.0",
+  "description": "Rewrite the address bar to the canonical URL.",
+  "author": "irok",
+  "homepage_url": "https://chrome.google.com/webstore/detail/canonicaurl/dcbmeicnoejpldipejlefojiiebhogij",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"]
+  }],
+  "page_action": {},
+  "permissions": ["declarativeContent"],
+  "manifest_version": 2
 }

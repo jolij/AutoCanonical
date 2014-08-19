@@ -1,2 +1,4 @@
-CanonicaURL.zip
-.idea
+.idea/
+*.sublime-*
+node_modules/
+AutoCanonical.zip
