@@ -1,7 +1,7 @@
 {
   "name": "Auto Canonical",
-  "version": "0.2.1",
-  "description": "Rewrite the url in address bar to the canonical url, using the replaceState.",
+  "version": "0.2.2",
+  "description": "To rewrite the url in address bar to the canonical url automatically, using the history.replaceState.",
   "author": "irok",
   "homepage_url": "https://github.com/irok/AutoCanonical",
   "background": {

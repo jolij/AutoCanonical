@@ -55,7 +55,9 @@
                 params.push(param);
             }
         });
-        return L.protocol + '//' + L.host + L.pathname + '?' + params.join('&') + L.hash;
+
+        var query = params.length ? '?' + params.join('&') : '';
+        return L.protocol + '//' + L.host + L.pathname + query + L.hash;
     }
 
     function arr2hash(arr) {
