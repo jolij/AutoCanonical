@@ -1,7 +1,4 @@
 (function(L) {
-    if (window.self !== window.top)
-        return;
-
     var state = {
         index: 0,
         names: ['original', 'canonical'],

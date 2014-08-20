@@ -1,9 +1,9 @@
 {
-  "name": "AutoCanonical",
-  "version": "0.2.0",
-  "description": "Rewrite the address bar to the canonical URL.",
+  "name": "Auto Canonical",
+  "version": "0.2.1",
+  "description": "Rewrite the url in address bar to the canonical url, using the replaceState.",
   "author": "irok",
-  "homepage_url": "https://chrome.google.com/webstore/detail/canonicaurl/dcbmeicnoejpldipejlefojiiebhogij",
+  "homepage_url": "https://github.com/irok/AutoCanonical",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -12,7 +12,12 @@
     "matches": ["http://*/*", "https://*/*"],
     "js": ["content.js"]
   }],
-  "page_action": {},
-  "permissions": ["declarativeContent"],
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "page_action": {
+    "default_icon": "icon-19-canonical.png"
+  },
   "manifest_version": 2
 }
