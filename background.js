@@ -16,7 +16,7 @@ chrome.runtime.onMessage.addListener(function(name, sender) {
 
 function change_action(tab, name) {
     chrome.pageAction.setIcon({
-        path: 'icon-19-' + name + '.png',
+        path: 'img/icon-19-' + name + '.png',
         tabId: tab.id
     });
     chrome.pageAction.setTitle({

@@ -1,6 +1,6 @@
 {
   "name": "AutoCanonical",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "This is a Chrome extension to rewrite the url in address bar to the canonical url automatically.",
   "author": "irok",
   "license": "MIT",
@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/irok/AutoCanonical",
   "devDependencies": {
+    "del": "^0.1.3",
+    "event-stream": "^3.1.7",
     "gulp": "^3.8.7",
     "gulp-jshint": "^1.8.4",
     "gulp-load-plugins": "^0.5.3",
-    "gulp-uglify": "^0.3.1",
     "gulp-zip": "^2.0.1",
-    "jshint-stylish": "^0.4.0"
+    "jshint-stylish": "^0.4.0",
+    "run-sequence": "^0.3.6"
   }
 }

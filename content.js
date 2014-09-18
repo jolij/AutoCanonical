@@ -20,9 +20,15 @@
         'utm_source',
         'utm_term'
     ]);
+    var excludeHosts = arr2hash([
+        //'plus.google.com'
+    ]);
 
     function init() {
         var canonical;
+
+        if (excludeHosts[L.host])
+            return;
 
         var link = document.querySelector('link[rel="canonical"]');
         if (link && link.href.indexOf(L.origin + '/') === 0) {

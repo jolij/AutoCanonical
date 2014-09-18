@@ -1,6 +1,6 @@
 {
   "name": "Auto Canonical",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "To rewrite the url in address bar to the canonical url automatically, using the history.replaceState.",
   "author": "irok",
   "homepage_url": "https://github.com/irok/AutoCanonical",
@@ -13,11 +13,11 @@
     "js": ["content.js"]
   }],
   "icons": {
-    "48": "icon-48.png",
-    "128": "icon-128.png"
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
   },
   "page_action": {
-    "default_icon": "icon-19-canonical.png"
+    "default_icon": "img/icon-19-canonical.png"
   },
   "manifest_version": 2
 }
